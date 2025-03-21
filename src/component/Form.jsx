@@ -12,13 +12,13 @@ export function Form() {
             <div className="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
                 <form className="mt-8 grid grid-cols-6 gap-6"  
                       method="POST" 
-                      onSubmit={(e) => { e.preventDefault(); console.log("submit") }}>
+                      onSubmit={(e) => { e.preventDefault(); console.log("Formulario enviado ✅") }}>
                     <Input type={"text"} placeholder={"John"} label={"First Name"} />
                     <Input type={"text"} placeholder={"Doe"} label={"Last Name"} />
-                    <Input type={"email"} placeholder={"Johndoe@example.com"} label={"Email"} />
+                    <Input type={"email"} placeholder={"Johndoe@example.com"} label={"Email"} autocomplete="username"/>
                     <Input type={"phone"} placeholder={"+1 (555) 0000-0000"} label={"Phone"} />
-                    <Input type={"password"} placeholder={"●●●●●●●●"} label={"Password"} />
-                    <Input type={"password"} placeholder={"●●●●●●●●"} label={"Confirm Password"} />
+                    <Input type={"password"} placeholder={"●●●●●●●●"} label={"Password"} autocomplete="new-password"/>
+                    <Input type={"password"} placeholder={"●●●●●●●●"} label={"Confirm Password"} autocomplete="new-password"/>
 
                     <div className="col-span-6">
                         <p className="text-sm text-gray-500">

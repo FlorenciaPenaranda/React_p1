@@ -8,7 +8,7 @@
  * @param {string} props.label - El texto de la etiqueta asociada con el campo de entrada.
  */
 
-export function Input({ type, placeholder, label }) {
+export function Input({ type, placeholder, label, autocomplete }) {
     return (
         <div className="col-span-6 sm:col-span-3">
             <label htmlFor={label} className="block text-sm font-medium text-gray-700">{label}</label>
@@ -19,7 +19,8 @@ export function Input({ type, placeholder, label }) {
                     className="appearance-none block w-full px-3 py-2 pr-10 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5"
                     id={label}
                     type={type}
-                    placeholder={placeholder}  
+                    placeholder={placeholder} 
+                    autoComplete={autocomplete}  
                 /> 
 
                 {/* Ícono del ojo para inputs de tipo password */}

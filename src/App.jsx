@@ -1,5 +1,5 @@
 
-import Contacto from './component/Contacto'
+import Registro from './component/Registro'
 
 /**
  * El componente App sirve como el componente raíz de la aplicación.
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <Contacto />  
+      <Registro />  
     </>
   )
 }

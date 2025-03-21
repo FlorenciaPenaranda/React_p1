@@ -1,12 +1,51 @@
-# React + Vite
+# **Formulario de Registro** 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto contiene un **formulario de registro** con campos para capturar información de usuarios, incluyendo **nombre**, **apellido**, **correo electrónico**, **teléfono** y **contraseña**. Además, cuenta con **validaciones básicas** y un diseño **responsive** adaptado a dispositivos móviles y de escritorio.
 
-Currently, two official plugins are available:
+## **Funcionalidades** ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Campos de Entrada**: Los campos incluyen **nombre**, **apellido**, **correo electrónico**, **teléfono** y **contraseña**.
+- **Creación de Cuenta**: Un **botón de registro** para crear una nueva cuenta. 🆕
+- **Enlaces de Términos y Condiciones**: Se incluyen enlaces a los **términos y condiciones** ⚖️, así como a la **política de privacidad** 🔒.
+- **Responsivo**: El formulario es **totalmente responsive**, adaptándose a dispositivos móviles y de escritorio 📱💻.
+- **Confirmación de Envío**: Al enviar el formulario, se muestra un mensaje en la consola indicando que el formulario fue enviado correctamente, con un **ícono de check verde** ✅.
 
-## Expanding the ESLint configuration
+## **Estructura del Proyecto** 🛠️
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Input Component**: Un componente reutilizable que renderiza un campo de entrada con etiquetas, placeholders y soporte para contraseñas con visibilidad toggle. 🔲
+- **Form Component**: El formulario principal que incluye varios campos de entrada y el botón para enviar la información. 📋
+
+## **Instalación** 💻
+
+1. **Clona este repositorio** en tu máquina local:
+
+   bash
+   git clone <url-del-repositorio>
+
+
+2. **Navega a la carpeta del proyecto** e instala las dependencias:
+
+
+    bash
+    Copy
+    Edit
+    cd <nombre-del-proyecto>
+    npm install
+    
+3. **Inicia el servidor** de desarrollo:
+
+    bash
+    Copy
+    Edit
+    npm start
+
+4. **Abre tu navegador** y accede a http://localhost:3000 para ver el formulario en acción. 🌐
+
+## **Dependencias** 📦
+React ⚛️
+Tailwind CSS (para el estilo y diseño responsivo) 🖌️
+Contribución 🤝
+Si deseas contribuir a este proyecto, por favor crea un fork, realiza tus cambios y envía un pull request con una descripción clara de los cambios que has realizado.
+
+## **Licencia** 📝
+Este proyecto es de código abierto y está bajo la Licencia MIT.
